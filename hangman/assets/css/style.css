@@ -7,23 +7,6 @@ h3 {
   margin-top: 0;
 }
 
-.btn {
-  cursor: pointer;
-}
-.btn:hover, .btn:active{ 
-  color: rgb(18, 107, 0);
-}
-
-.jumbotron {
-  text-align: center;
-  color: rgb(17, 147, 32);
-  font-family: 'Bungee Inline', cursive;
-  background-color: rgb(255, 111, 1);
-}
-
-.jumbotron h1 {
-  font-size: 100px;  
-}
 
 .scoreBoard {
   align-content: center;
@@ -55,16 +38,8 @@ h3 {
   font-family: 'Roboto', sans-serif;
   text-transform: uppercase;  
 }
-.btn-primary:hover {
-    background: #000;
-    border: solid 1px $grey;
-    color: #FFF88B;
-  }
-.btn-primary:disabled {
-    background: #68349E;
-    border: solid 1px;
-    color: #fff;
-  }  
+
+    
 footer {
   text-align: center;
   font-family: 'Indie Flower', cursive;

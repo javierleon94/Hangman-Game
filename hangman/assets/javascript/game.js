@@ -1,4 +1,4 @@
-var gameWords = ['pomegranite', 'avocado', 'waffles', 'weed', 'marijuana', 'blossoms', 'mitsubishi', 'tequila',
+var gameWords = ['', 'avocado', 'waffles', 'weed', 'marijuana', 'blossoms', 'mitsubishi', 'tequila',
   'tomato', 'laptop', 'orange', 'kiwi', 'princess', 'lettuce', 'sandwich', 'rosaparks',
 ];
 var blanksAndSuccess = []; 
@@ -108,7 +108,6 @@ function round() {
 
   if (currentLetters.toString() == blanksAndSuccess.toString()) {
     winCounter++; 
-    document.getElementById("word").innerHTML = "The last word was " + currentWord;
     alert("You're a Genius! The word was " + currentWord); 
 
     document.getElementById("winCounter").innerHTML = "Champ you won " + winCounter + " game(s)";
@@ -118,7 +117,6 @@ function round() {
   
   else if (numGuesses == 0) {
     lossCounter++; 
-    document.getElementById("word").innerHTML = "The last word was " + currentWord;
 
     alert("Loser. The word was " + currentWord); 
 
